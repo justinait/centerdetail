@@ -7,6 +7,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+
 }
 h1 {
     font-weight: 600;
@@ -23,6 +25,7 @@ h5 {
 
 
 .heroFooter {
+    color: white;
     background-color: black;
     text-align: center;
     padding: 20px;
