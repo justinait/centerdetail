@@ -1,0 +1,20 @@
+.budgetContainer {
+    background-color: black;
+    color: white;
+}
+.yourPartnerImage {
+    background-image: url('/public/images/footer.png');
+    background-size: cover;
+    height: 70vh;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    align-items: flex-end;
+}
+.yourPartnerImage strong {
+    font-weight: 600;
+}
+.yourPartnerImage p {
+    margin-left: 10%;
+}

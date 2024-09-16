@@ -5,6 +5,8 @@ import About from '../About/About'
 import Proposal from '../Proposal/Proposal'
 import About2 from '../About/About2'
 import About3 from '../About/About3'
+import Budget from '../Budget/Budget'
+import Footer from '../Footer/Footer'
 
 function Home() {
   return (
@@ -25,6 +27,9 @@ function Home() {
       < Proposal />
       < About2 />
       < About3 />
+
+      {/* <Budget /> */}
+      <Footer />
     </div>
   )
 }

@@ -1,0 +1,17 @@
+.footerContainer {
+    color: black;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.footerSubtitle {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+}
+.footerText {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0.3em;
+}
