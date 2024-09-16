@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import Techniques from '../Techniques/Techniques'
 import About from '../About/About'
+import Proposal from '../Proposal/Proposal'
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       
       < Techniques />
       < About />
+      < Proposal />
     </div>
   )
 }

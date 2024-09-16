@@ -1,0 +1,8 @@
+.proposalContainer {
+    padding: 40px 0;
+}
+.proposalContainer h2, .proposalContainer .formacionText {
+    width: 70%;
+    text-align: center;
+    margin: 0.5em auto;
+}

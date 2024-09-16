@@ -19,4 +19,6 @@ body {
 h2 {
   font-size: 27px;
   font-weight: 400;
+  text-transform: uppercase;
+  line-height: 29.7px;
 }
