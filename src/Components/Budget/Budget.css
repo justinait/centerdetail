@@ -5,18 +5,22 @@
 .yourPartnerImage {
     background-image: url('/public/images/footer.png');
     background-size: cover;
-    height: 70vh;
+    height: 60vh;
     color: white;
     font-size: 20px;
     font-weight: 300;
     display: flex;
     align-items: flex-end;
+    background-position: 61% center;
 }
 .yourPartnerImage strong {
     font-weight: 600;
 }
 .yourPartnerImage p {
     margin-left: 10%;
+}
+.logoBudget {
+    width: 100px;
 }
 .budgetSubtitle {
     font-size: 12px;

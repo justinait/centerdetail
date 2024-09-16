@@ -14,7 +14,7 @@ function Home() {
     <div>
       <div className='heroContainer'>
         <div className='hero'>
-          <img src={logo} alt="" width={400} />
+          <img src={logo} alt="" className='heroLogo' />
           <h1>Centro Profesional</h1>
           <h5>Proyecto y apertura</h5>
         </div>

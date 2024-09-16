@@ -8,7 +8,9 @@
     justify-content: center;
     align-items: center;
     color: white;
-
+}
+.heroLogo {
+    width: 315px;
 }
 h1 {
     font-weight: 600;
