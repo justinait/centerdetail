@@ -5,6 +5,10 @@
     width: 90%;
     margin: auto;
 }
+
+.objetivosContainer h2 {
+    margin: 2em 0;
+}
 .objetivosTitle {
     background-color: black;
     color: white;
