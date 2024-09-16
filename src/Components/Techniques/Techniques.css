@@ -1,8 +1,7 @@
 .techniquesContainer {
     text-align: center;
     width: 80%;
-    margin: auto;
-    margin-top: 40px;
+    margin: 40px auto;
 }
 .formacionText {
     font-size: 12px;
@@ -30,10 +29,12 @@
     margin: auto;
 }
 .techniqueInfoBox {
-    
     position: absolute;
     z-index: 2;
     top: 55px;
     text-align: left;
     margin: 10px;
+}
+.techniqueBox img {
+    width: 100%;
 }

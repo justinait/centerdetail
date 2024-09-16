@@ -1,0 +1,36 @@
+.aboutContainer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 12%;
+}
+
+.aboutBox {
+    margin: 7px;
+    width: 45%;
+    text-align: center;
+}
+.aboutInfoBox h5 {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+.aboutText {
+    font-size: 9.3px;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+.aboutIconCircle {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin: 0.5em auto;
+}
