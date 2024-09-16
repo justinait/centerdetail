@@ -18,3 +18,11 @@
 .yourPartnerImage p {
     margin-left: 10%;
 }
+.budgetSubtitle {
+    font-size: 12px;
+    width: 55%;
+    margin: auto;
+}
+.budgetContainerBox {
+    padding-top: 50px;
+}
