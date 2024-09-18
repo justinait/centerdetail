@@ -2,16 +2,18 @@
     background-color: black;
     color: white;
 }
-.yourPartnerImage {
-    background-image: url('/public/images/footer.png');
+.yourPartnerImage {    
+    background-image: url(/public/images/footer.png);
     background-size: cover;
     height: 60vh;
     color: white;
     font-size: 20px;
     font-weight: 300;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     background-position: 61% center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .yourPartnerImage strong {
     font-weight: 600;
@@ -20,13 +22,46 @@
     margin-left: 10%;
 }
 .logoBudget {
-    width: 100px;
+    width: 60px;
+    margin-left: 80%;
+    margin-top: 1em;
 }
 .budgetSubtitle {
     font-size: 12px;
-    width: 55%;
-    margin: auto;
+    width: 50%;
+    margin: auto;  
+    font-family: 'Inter Variable', sans-serif;
+    text-align: center;
+    font-weight: 300;
 }
 .budgetContainerBox {
-    padding-top: 50px;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.budgetChart{
+    width: 90%;
+    margin: 7% 0;
+}
+.presupuestoTotalDiv {
+    width: 55%;
+    padding: 1.8%;
+    background-color: white;
+    color: black;
+    margin: 0;
+    text-align: center;
+    border-radius: 20px;
+}
+.presupuestoTotal {
+    font-family: 'Inter Variable', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+}
+.presupuesto {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 29.7px;
+    margin: 0;
 }
