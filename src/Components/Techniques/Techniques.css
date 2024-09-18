@@ -22,12 +22,13 @@
     color: white;
     line-height: normal;
 }
-.techniqueBox {
-    position: relative;
-}
-.tecnhiquesBoxsContainer {
+.techniquesBoxsContainer {
+    font-family: 'Montserrat Variable', sans-serif;
     width: 70vw;
     margin: auto;
+}
+.techniqueBox {
+    position: relative;
 }
 .techniqueInfoBox {
     position: absolute;

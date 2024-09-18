@@ -19,7 +19,7 @@ function Techniques() {
                 automotriz, asegurando que brindes el mejor servicio y calidad a tus clientes.
             </p>
 
-            <div className='tecnhiquesBoxsContainer'>
+            <div className='techniquesBoxsContainer'>
                 {
                     techniques.map(e=> (
                         <div className='techniqueBox'>

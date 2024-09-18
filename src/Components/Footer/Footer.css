@@ -1,8 +1,9 @@
 .footerContainer {
     color: black;
-    width: 75%;
+    width: 70%;
     margin: auto;
     text-align: center;
+    padding: 40px 0;
 }
 .footerSubtitle {
     font-size: 13px;
