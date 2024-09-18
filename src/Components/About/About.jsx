@@ -23,7 +23,7 @@ function About() {
     { name: 'Finalización del Local', image: <TaskAltOutlinedIcon/>, text:'Nuestro compromiso continúa una vez que tu local esté en funcionamiento, brindándote apoyo constante para garantizar la satisfacción tanto tuya como de tus clientes.', className: '' }
   ]
   return (
-    <div className='aboutContainer'>
+    <div className='aboutContainer'  >
       {
         about.map(e=> (
           <div className='aboutBox'>

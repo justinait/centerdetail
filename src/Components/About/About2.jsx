@@ -3,7 +3,7 @@ import './About2.css'
 
 function About2() {
   return (
-    <div className='puntosClaveContainer'>
+    <div className='puntosClaveContainer' id='claves'>
         <h2>Puntos Clave</h2>
 
         {/* <div> */}

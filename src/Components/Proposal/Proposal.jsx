@@ -4,7 +4,7 @@ import car from '/images/car.png'
 
 function Proposal() {
   return (
-    <div className='proposalContainer'>
+    <div className='proposalContainer' id='propuesta'>
       <h2>Propuesta <br /> de valor</h2>
       <p className='formacionText'>
         Nuestra propuesta de valor se basa en seis pilares fundamentales que definen y diferencian nuestro negocio en el mercado. 

@@ -6,7 +6,7 @@ import RocketLaunchOutlinedIcon from '@mui/icons-material/RocketLaunchOutlined';
 
 function About3() {
   return (
-    <div className='objetivosContainer'>
+    <div className='objetivosContainer' id='objetivos'>
         <h2>Objetivos</h2>
         <div>
             <h6 className='objetivosTitle'> <AutoFixHighOutlinedIcon className='objetivosIcon' /> Servicio de excelencia</h6>

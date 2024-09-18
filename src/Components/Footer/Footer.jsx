@@ -4,7 +4,7 @@ import ig from '/ig.png'
 
 function Footer() {
   return (
-    <div className='footerContainer'>
+    <div className='footerContainer'  id='contacto'>
       <h2>Contacto</h2>
       
       <p className='footerSubtitle'>¿Listo para dar el siguiente paso?</p>

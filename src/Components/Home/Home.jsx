@@ -12,7 +12,7 @@ import logo from '/logowhite.png'
 function Home() {
   return (
     <div>
-      <div className='heroContainer'>
+      <div className='heroContainer' id='inicio'>
         <div className='hero'>
           <img src={logo} alt="" className='heroLogo' />
           <h1>Centro Profesional</h1>
@@ -30,8 +30,8 @@ function Home() {
       < About2 />
       < About3 />
 
-      <Budget />
-      <Footer />
+      < Budget />
+      < Footer />
     </div>
   )
 }

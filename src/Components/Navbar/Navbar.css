@@ -32,7 +32,131 @@
 .dropdown p{
     font-size: 13px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.5;
     margin-top: 5%;
 }
+
+
+@media (min-width: 639px){
+    .navbarContainer{
+        padding: 0px 5%;
+    }
+    .logo {
+        width: 160px;
+    }
+    .dropdown {
+        display: flex;
+        justify-content: space-between;
+        width: 65%;
+        /* 55 */
+        height: unset;
+        z-index: unset;
+        position: unset;
+        top: unset;
+        right: unset;
+        padding: unset;
+        background: unset;
+    }
+
+    .dropdown p{
+        /* font-size: 9.565px; */
+        font-size: 10px;
+        font-weight: 400;
+        margin: 0;
+        height: 10.931px;
+        border-left: rgba(141, 141, 143, 0.50) solid 1px;
+        
+        width: 21%;
+        text-align: center;
+    }
+    .notBorderHome {
+        border:none !important;
+    }
+    .navbarContainer p {
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        cursor: pointer;
+    }
+  
+    .navbarContainer p::before {
+        content: "";
+        position: absolute;
+        /* width: 50%; */
+        width: 0;
+        margin: auto;
+        height: 2px;
+        bottom: -9px;
+        
+        left: 50%;
+        transform: translateX(-50%);
+        transition: width 0.3s ease, transform 0.3s ease;
+        background-color: var(--color-orange);
+    }
+    
+    .navbarContainer p.active::before,
+    .navbarContainer p:hover::before {
+        width: 35%;
+    }
+    .notBorderHome.active::before,
+    .notBorderHome:hover::before {
+        width: 22% !important;
+    }
+
+}
+
+
+@media (min-width: 1023px){
+    
+    .logo{
+        width: 190px;   
+    }
+    .dropdown p{
+        font-size: 10.565px;
+    }
+    
+    .notBorderHome.active::before,
+    .notBorderHome:hover::before {
+        width: 20% !important;
+    }
+}
+
+@media (min-width: 1259px){
+    .dropdown {
+        width: 50%;
+    }
+    .dropdown p{
+        font-size: 14px;
+        height: 16px;
+        width: 21%;
+        text-align: center;
+    }
+    
+    .notBorderHome.active::before,
+    .notBorderHome:hover::before {
+        width: 20% !important;
+    }
+    
+    .logo {
+        width: 210px;
+    }
+
+    
+}
+
+@media (min-width: 1800px){
+    
+    .dropdown p{
+        font-size: 16px;
+    }
+    
+    .logo {
+        width: 230px;
+    }
+
+    .navbarContainer p::before {
+        bottom: -11px;
+    }
+}
+

@@ -12,7 +12,7 @@ function Techniques() {
     ]
 
     return (
-        <div className='techniquesContainer'>
+        <div className='techniquesContainer' id='formacion'>
             <h2>FORMACIÓN</h2>
             <p className='formacionText'>
                 En Center Detail, no solo ofrecemos una franquicia, sino también formación en técnicas avanzadas de detallado 

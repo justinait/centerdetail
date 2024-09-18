@@ -12,7 +12,7 @@ function Budget() {
         <p>Tu socio en la <br /> <strong> excelencia del  <br />detailing y wrapping</strong>            </p>
       </div>
 
-      <div className='budgetContainerBox'>
+      <div className='budgetContainerBox' id='presupuesto'>
         <h2>Presupuesto</h2>
         <p className='budgetSubtitle'>El presupuesto final para la abrir un local con nuestra franquicia</p>
         

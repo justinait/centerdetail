@@ -4,6 +4,7 @@ import './Navbar.css'
 import MenuIcon from '@mui/icons-material/Menu';
 
 function Navbar() {
+
   const [show, setShow] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);
   const [activeSection, setActiveSection] = useState(null);
@@ -70,7 +71,9 @@ function Navbar() {
 
   return (
     <div className='navbarContainer'>
-      <img src={logo} alt="" className='logo' onClick={()=>scrollToSection('home')}/>
+      <a href='/'>
+        <img src={logo} alt="" className='logo' onClick={()=>scrollToSection('inicio')}/>
+      </a>
 
       {width < 1024 ? (
         <>
