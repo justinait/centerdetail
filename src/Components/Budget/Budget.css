@@ -52,6 +52,7 @@
     margin: 0;
     text-align: center;
     border-radius: 20px;
+    margin: 1em;
 }
 .presupuestoTotal {
     font-family: 'Inter Variable', sans-serif;
@@ -60,8 +61,9 @@
     margin: 0;
 }
 .presupuesto {
-    font-size: 27px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 29.7px;
+    font-family: 'Montserrat Variable', sans-serif;
     margin: 0;
 }

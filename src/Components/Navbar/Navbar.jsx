@@ -8,6 +8,7 @@ function Navbar() {
     <div className='navbarContainer'>
       <img src={logo} alt="" className='logo'/>
       <MenuIcon className='burgerMenu'/>
+      
     </div>
   )
 }

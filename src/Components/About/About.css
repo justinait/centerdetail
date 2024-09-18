@@ -11,12 +11,22 @@
     margin: 5px;
     width: 46%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutInfoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .aboutInfoBox h5 {
     font-size: 12px;
     font-weight: 700;
     margin: 0.5em 0;
     font-family: 'Montserrat Variable', sans-serif;
+    line-height: normal;
+    width: 80%;
 }
 .aboutText {
     font-size: 9.3px;
