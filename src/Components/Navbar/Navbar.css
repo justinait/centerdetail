@@ -1,11 +1,13 @@
 .navbarContainer {
-    background-color: #0a0a0a;
-    /* #2d4047; */
+    background-color: #0a0a0a;  /* #2d4047; */
     height: 65px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .logo {
     height: 40px;
@@ -13,4 +15,24 @@
 .burgerMenu {
     color: white;
     font-size: 2em !important;
+}
+.dropdown {
+    width: 140px;
+    z-index: 1;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    padding: 6% 40px 4% 0;
+    background: black;
+    text-align: right;
+    color: white;
+    border-radius: 0 0 5px 5px;
+}
+
+.dropdown p{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 5%;
 }
