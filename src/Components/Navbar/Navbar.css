@@ -1,7 +1,16 @@
 .navbarContainer {
-    background-color: #2d4047;
+    background-color: #0a0a0a;
+    /* #2d4047; */
     height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
 }
 .logo {
-    width: 140px;
+    height: 40px;
+}
+.burgerMenu {
+    color: white;
+    font-size: 2em !important;
 }
