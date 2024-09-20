@@ -13,10 +13,12 @@ function Techniques() {
 
     return (
         <div className='techniquesContainer' id='formacion'>
-            <h2>FORMACIÓN</h2>
+            <h2>TE FORMAMOS</h2>
             <p className='formacionText'>
-                En Center Detail, no solo ofrecemos una franquicia, sino también formación en técnicas avanzadas de detallado 
-                automotriz, asegurando que brindes el mejor servicio y calidad a tus clientes.
+                {/* En Center Detail, no solo ofrecemos una franquicia, sino también formación en técnicas avanzadas de detallado 
+                automotriz, asegurando que brindes el mejor servicio y calidad a tus clientes. */}
+                Ofrecemos formación en técnicas avanzadas de detallado automotriz,
+                asegurando que brindes el mejor servicio y calidad a tus clientes.
             </p>
 
             <div className='techniquesBoxsContainer'>

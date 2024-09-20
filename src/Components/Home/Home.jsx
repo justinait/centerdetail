@@ -16,18 +16,19 @@ function Home() {
         <div className='hero'>
           <img src={logo} alt="" className='heroLogo' />
           <h1>Centro Profesional</h1>
-          <h5>Proyecto y apertura</h5>
+          {/* <h5>Proyecto y apertura</h5> */}
+          <h5>Franquicias de detallado de vehículos</h5>
         </div>
         <div className='heroFooter'>
-          <p className='heroFooterStrong'>Limpieza profesional y precisión.</p>
-          <p className='heroFooterP'>Tu vehículo en su mejor versión</p>
+          <p className='heroFooterStrong'>Donde cada coche cuenta una historia</p>
+          <p className='heroFooterP'>y tu negocio escribe el próximo capítulo.</p>          
         </div>
       </div>
       
       < Techniques />
       < About />
       < Proposal />
-      < About2 />
+      {/* < About2 /> */}
       < About3 />
 
       < Budget />
