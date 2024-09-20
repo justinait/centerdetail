@@ -26,10 +26,9 @@ function Home() {
       </div>
       
       < About />
-      < Techniques />
       < Proposal />
-      {/* < About2 /> */}
       < About3 />
+      < Techniques />
 
       < Budget />
       < Footer />
