@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import ig from '/ig.png'
+import mail from '/mail.png'
 
 function Footer() {
   return (
@@ -10,9 +11,17 @@ function Footer() {
       <p className='footerSubtitle'>¿Listo para dar el siguiente paso?</p>
       <p className='footerText'>Estamos disponibles para cualquier consulta, no dudes en comunicarte con nosotros</p>
 
-      <div>
-        <img src={ig} alt="" />
-        <p>@centerdetail</p>
+      <div className='contactContainer'>
+
+        <div>
+          <img src={ig} alt="INSTAGRAM" className='footerIconMail' />
+          <p>@centerdetail</p>
+        </div>
+        <div>
+          <img src={mail} alt="CORREO" className='footerIconMail'/>
+          <p>centerdetail@gmail.com</p>
+          
+        </div>
       </div>
     </div>
   )

@@ -16,3 +16,18 @@
     line-height: normal;
     margin: 0.3em;
 }
+.footerIconMail {
+    width: 75px;
+}
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+.contactContainer p {
+    font-size: 12px;
+    margin: 0;
+}
+.contactContainer div {
+    width: 50%;
+}
