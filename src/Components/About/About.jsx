@@ -24,6 +24,7 @@ function About() {
   ]
   return (
     <div className='aboutContainer'  >
+      <h2>¿Por qué elegir <br />center detail?</h2>  
       {
         about.map(e=> (
           <div className='aboutBox'>
