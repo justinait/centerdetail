@@ -25,10 +25,9 @@ function Navbar() {
 
   const secciones = [
     { nombre: 'INICIO', id: 'inicio', className: '' },
-    { nombre: 'FORMACIÓN', id: 'formacion', className: ''},
     { nombre: 'PROPUESTA', id: 'propuesta', className: ''},
-    // { nombre: 'PUNTOS CLAVE', id: 'claves', className: ''},
     { nombre: 'OBJETIVOS', id: 'objetivos', className: ''},
+    { nombre: 'FORMACIÓN', id: 'formacion', className: ''},
     { nombre: 'PRESUPUESTO', id: 'presupuesto', className: ''},
     { nombre: 'CONTACTO', id: 'contacto', className: ''}
   ];
