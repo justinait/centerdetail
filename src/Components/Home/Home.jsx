@@ -25,8 +25,8 @@ function Home() {
         </div>
       </div>
       
-      < Techniques />
       < About />
+      < Techniques />
       < Proposal />
       {/* < About2 /> */}
       < About3 />
