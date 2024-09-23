@@ -15,9 +15,10 @@ function Home() {
       <div className='heroContainer' id='inicio'>
         <div className='hero'>
           <img src={logo} alt="" className='heroLogo' />
-          <h1>Centro Profesional</h1>
-          {/* <h5>Proyecto y apertura</h5> */}
-          <h5>Franquicias de detallado de vehículos</h5>
+          <div className='heroTextContainer'>
+            <h1>Centro Profesional</h1>
+            <h5>Franquicias de detallado de vehículos</h5>
+          </div>
         </div>
         <div className='heroFooter'>
           <p className='heroFooterStrong'>Donde cada coche cuenta una historia</p>
