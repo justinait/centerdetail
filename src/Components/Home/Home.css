@@ -41,9 +41,11 @@
 h1 {
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 23px;
-    margin: 0.2em;
+    font-size: 20px;
+    line-height: normal;
+    width: 90%;
     z-index: 2;
+    margin: 0.5em auto;
 }
 h5 {
     font-weight: 400;
@@ -55,6 +57,15 @@ h5 {
     margin: 0 3.5em;
     text-align: center;
     font-size: 16px;
+
+    display: none;
+    margin: 15px 4.5em;
+    background-color: #2d4047;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.55em;
+    border-radius: 20px;
 }
 .heroFooter {
     color: white;

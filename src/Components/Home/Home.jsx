@@ -27,8 +27,8 @@ function Home() {
           <div className='heroInfo'>
             <img src={logo} alt="" className='heroLogo' />
             <div className='heroTextContainer'>
-              <h1>Centro Profesional</h1>
-              <h5>Franquicias de detallado de vehículos</h5>
+              <h1>Abre tu franquicia de detallado de vehículos</h1>
+              <h5>Quiero mi franquicia</h5>
             </div>
           </div>
         </div>
