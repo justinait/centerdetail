@@ -123,8 +123,6 @@
         width: 21%;
         text-align: center;
     }
-    
-    
     .logo {
         height: 60px;
     }
@@ -136,13 +134,17 @@
     .dropdown p{
         font-size: 16px;
     }
-    
-    .logo {
-        width: 230px;
+    .navbarContainer {
+        height: 95px;
     }
-
     .navbarContainer p::before {
         bottom: -11px;
+    }
+    .logo {
+        height: 70px;
+    }
+    .dropdown {
+        width: 48%;
     }
 }
 

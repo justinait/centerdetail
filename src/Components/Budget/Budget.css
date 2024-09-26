@@ -125,3 +125,14 @@
         border-radius: 35px;
     }
 }
+
+@media(min-width:1800px) {
+    .budgetSubtitle {
+        font-size: 20px;
+    }
+    .presupuestoTotalDiv {
+        width: 17%;
+        padding: 1%;
+        border-radius: 45px;
+    }
+}

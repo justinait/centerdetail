@@ -93,3 +93,16 @@
         width: 55%;
     }
 }
+@media (min-width: 1800px) {
+    .formacionText {
+        font-size: 20px;
+        width: 50%;
+        margin: 1.5em auto 3em;
+    }
+    .techniquesContainer h5 {
+        font-size: 34px;
+    }
+    .techniquesText {
+        font-size: 20px;
+    }
+}

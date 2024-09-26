@@ -89,3 +89,8 @@
         width: 84%;
     }
 }
+@media (min-width: 1800px) {
+    .objetivosTitle {
+        font-size: 23px;
+    }
+}

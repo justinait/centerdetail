@@ -67,3 +67,12 @@
     }
 
 }
+@media (min-width:1800px) {
+
+    .proposalContainer h2, .proposalContainer .formacionText{
+        width: 50%;
+    }
+    .carProposal {
+        width: 25%;
+    }
+}

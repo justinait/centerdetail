@@ -108,3 +108,15 @@
         padding: 6% 13%;
     }
 }
+@media (min-width: 1800px) {
+    .aboutBox {
+        width: 24%;
+        margin: 20px 24px;
+    }
+    .aboutInfoBox h5 {
+        font-size: 18px;
+    }
+    .aboutText {
+        font-size: 17px;
+    }
+}
