@@ -30,8 +30,19 @@ h2 {
   font-family: 'Montserrat Variable', sans-serif;
 
 }
+.tabletOn {
+  display: none;
+}
 @media(min-width: 600px){
   h2 {
     width: 100%;
+    font-size: 31px;
+  }
+  
+  .tabletOn {
+    display: block;
+  }
+  .tabletOff {
+    display: none;
   }
 }

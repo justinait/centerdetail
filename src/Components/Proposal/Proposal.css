@@ -28,3 +28,21 @@
 .itemsProposalBox p strong {
     font-weight: 600;
 }
+@media(min-width:600px){
+    
+    .carProposal {
+        width: 30%;
+    }
+    .carProposalBox {
+        align-items: center;
+        justify-content: space-between;
+        font-size: 31px;
+    }
+    .itemsProposalBox p {
+        font-size: 17px;
+    }
+    .proposalContainer h2, .proposalContainer .formacionText {
+        width: 58%;
+        margin: 1.5em auto 0em;
+    }
+}
