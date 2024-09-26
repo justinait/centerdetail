@@ -72,6 +72,20 @@
     .objetivosText {
         width: 88%;
         margin: 20px auto;
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+@media (min-width: 1400px) {
+    .objetivosTitle {
+        font-size: 20px;
+    }
+    .objetivosText {
+        margin: 25px auto;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .objetivosContainer {
+        width: 84%;
     }
 }

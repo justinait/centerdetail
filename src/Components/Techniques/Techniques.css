@@ -79,8 +79,17 @@
     }
     .techniqueBox {
         width: 32%;
+        height: 29vw;
     }
     .techniquesText {
         font-size: 15.5px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .formacionText {
+        font-size: 18px;
+        width: 55%;
     }
 }

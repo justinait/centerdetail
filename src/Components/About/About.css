@@ -100,3 +100,11 @@
         margin-bottom: 1.5em;
     }
 }
+@media(min-width:1400px) {
+    .aboutBox {
+        width: 23%;
+    }
+    .aboutContainer {
+        padding: 6% 13%;
+    }
+}
