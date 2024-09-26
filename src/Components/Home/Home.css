@@ -51,7 +51,7 @@ h5 {
     font-size: 18px;
     margin: 0;
 }
-.hero h5 {
+.heroInfo h5 {
     margin: 0 3.5em;
     text-align: center;
     font-size: 16px;
@@ -74,4 +74,31 @@ h5 {
 .heroTextContainer {
     z-index: 2;
     text-align: center;
+}
+
+@media(min-width:600px){
+
+    .heroLogo {
+        width: 280px;
+        margin-top: 20em;
+    }
+    .heroInfo h5 {
+        margin: 0 auto;
+        width: 72%;
+        text-align: center;
+    }
+}
+@media (min-width: 1000px) {
+    .heroLogo {
+        width: 330px;
+        margin-top: 25em;
+        margin-bottom: 1em;
+    }
+}
+@media (min-width: 1200px) {
+    .heroLogo {
+        width: 330px;
+        margin-top: 12em;
+        margin-bottom: 0em;
+    }
 }

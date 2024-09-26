@@ -71,13 +71,11 @@
     }
 
     .dropdown p{
-        /* font-size: 9.565px; */
-        font-size: 10px;
         font-weight: 400;
         margin: 0;
         height: 10.931px;
         border-left: rgba(141, 141, 143, 0.50) solid 1px;
-        
+        font-size: 12px;
         width: 21%;
         text-align: center;
     }
@@ -106,10 +104,7 @@
     .navbarContainer p.active::before,
     .navbarContainer p:hover::before {
         width: 35%;
-    }
-    .dropdown p{
-        font-size: 10.565px;
-    }
+    }    
     
 }
 
