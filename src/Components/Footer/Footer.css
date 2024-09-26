@@ -47,3 +47,15 @@
         width: 32%;
     }
 }
+@media(min-width:1200px){
+    .contactContainer p {
+        font-size: 15px;
+    }
+    .contactContainer {
+        justify-content: center;
+        margin: 4em;
+    }
+    .contactContainer div {
+        width: 20%;
+    }
+}

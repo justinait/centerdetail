@@ -75,5 +75,12 @@
 @media (min-width: 1200px) {
     .formacionText {
         font-size: 17px;
+        width: 60%;
+    }
+    .techniqueBox {
+        width: 32%;
+    }
+    .techniquesText {
+        font-size: 15.5px;
     }
 }

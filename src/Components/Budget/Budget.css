@@ -89,3 +89,39 @@
         border-radius: 25px;
     }
 }
+@media(min-width:1200px) {
+    .yourPartnerImage {    
+        height: 80vh;
+    }
+    .yourPartnerImage p {
+        margin-left: 10%;
+        font-size: 47px;
+        margin-bottom: 2em;
+        line-height: normal;
+    }
+    .logoBudget {
+        width: 95px;
+        margin-left: 80%;
+        margin-top: 3em;
+    }
+    .budgetSubtitle {
+        font-size: 17px;
+    }
+    .budgetChart {
+        width: unset;
+        margin: 6% 0;
+        height: 40vh;
+    }
+    .presupuesto {
+        font-size: 50px;
+        line-height: 52px;
+    }
+    .presupuestoTotal {
+        font-size: 16px;
+    }
+    .presupuestoTotalDiv {
+        width: 21%;
+        padding: 1%;
+        border-radius: 35px;
+    }
+}
