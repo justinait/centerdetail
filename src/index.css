@@ -43,11 +43,21 @@ h2 {
     display: block;
   }
   .tabletOff {
-    display: none;
+    display: none !important;
   }
 }
 @media (min-width: 1000px) {
   h2 {
     font-size: 36px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .css-20bmp1-MuiSvgIcon-root {
+    font-size: 2rem !important;
   }
 }

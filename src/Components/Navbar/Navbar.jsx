@@ -24,7 +24,7 @@ function Navbar() {
 
 
   const secciones = [
-    { nombre: 'INICIO', id: 'inicio', className: '' },
+    { nombre: 'INICIO', id: 'inicio', className: 'tabletOff' },
     { nombre: 'PROPUESTA', id: 'propuesta', className: ''},
     { nombre: 'OBJETIVOS', id: 'objetivos', className: ''},
     { nombre: 'FORMACIÓN', id: 'formacion', className: ''},

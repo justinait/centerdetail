@@ -64,3 +64,37 @@
         margin-bottom: 2em;
     }
 }
+
+@media(min-width:1000px){
+    .aboutContainer {
+        padding: 6%;
+        justify-content: space-evenly;
+    }
+    .aboutBox {
+        margin: 8px 12px;
+        width: 33%;
+    }
+}
+@media(min-width:1200px){
+    .aboutIconCircle {
+        width: 42px;
+        height: 42px;
+    }
+    .aboutInfoBox h5 {
+        font-size: 15px;
+    }
+    .aboutText {
+        font-size: 14px;
+    }
+    .aboutContainer {
+        justify-content: space-around;
+    }
+    
+    .aboutBox {
+        width: 29%;
+        margin: 20px 12px;
+    }
+    .aboutContainer h2 {
+        margin-bottom: 1.5em;
+    }
+}
