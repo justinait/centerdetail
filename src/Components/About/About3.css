@@ -44,7 +44,8 @@
 }
 @media(min-width:1000px) {
     .objetivosText {
-        width: 74%;
+        width: 86%;
+        margin: 15px auto;
     }
     .objetivosTitle {
         font-size: 16px;
@@ -62,5 +63,15 @@
     }
     .lastBorder {
         border-radius: 0 25px 25px 0;
+    }
+}
+@media (min-width: 1200px) {
+    .objetivosTitle {
+        font-size: 18px;
+    }
+    .objetivosText {
+        width: 88%;
+        margin: 20px auto;
+        font-size: 14px;
     }
 }
