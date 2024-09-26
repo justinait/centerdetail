@@ -10,6 +10,7 @@ import logo from '/logowhite.png'
 import lavar from '/images/vinilohero.jpg'
 import vinilo from '/images/car.png'
 import pulir from '/images/pulirhero.jpg'
+import Franchise from '../Franchise/Franchise'
 
 
 function Home() {
@@ -46,6 +47,7 @@ function Home() {
 
       < Budget />
       < Footer />
+      < Franchise />
     </div>
   )
 }

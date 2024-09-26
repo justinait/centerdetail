@@ -1,0 +1,24 @@
+.franchiseContainer {
+    background-color: #2d4047;
+    color: white;
+}
+.franchiseContainer {
+    padding: 50px 50px 0;
+}
+.franchiseContainer h4 {
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0em 0 2em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.mapContainerFranchise {
+    border-radius: 25px;
+}
+.mapBoxFranchise {
+    margin-top: 50px;
+}
+.franchiseContainer .formacionText {
+    text-align: center;
+}
