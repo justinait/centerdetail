@@ -40,13 +40,22 @@
 }
 
 
-@media (min-width: 639px){
+@media (min-width: 600px){
     .navbarContainer{
         padding: 0px 5%;
     }
-    .logo {
-        width: 160px;
+    .dropdown {
+        width: 200px;
     }
+    .dropdown p {
+        font-size: 16px;
+    }
+
+}
+
+
+@media (min-width: 1023px){
+    
     .dropdown {
         display: flex;
         justify-content: space-between;
@@ -104,15 +113,6 @@
     .notBorderHome.active::before,
     .notBorderHome:hover::before {
         width: 22% !important;
-    }
-
-}
-
-
-@media (min-width: 1023px){
-    
-    .logo{
-        width: 190px;   
     }
     .dropdown p{
         font-size: 10.565px;

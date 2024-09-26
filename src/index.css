@@ -30,3 +30,8 @@ h2 {
   font-family: 'Montserrat Variable', sans-serif;
 
 }
+@media(min-width: 600px){
+  h2 {
+    width: 100%;
+  }
+}

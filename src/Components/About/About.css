@@ -46,3 +46,21 @@
     margin: auto;
     margin: 0.5em auto;
 }
+
+@media(min-width:600px){
+    
+    .aboutBox {
+        margin: 8px 20px;
+        width: 40%;
+    }
+    .aboutText {
+        font-size: 11px;
+    }
+    .aboutInfoBox h5 {
+        font-size: 11px;
+    }
+    .aboutContainer h2{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+}
