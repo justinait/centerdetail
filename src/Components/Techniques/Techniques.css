@@ -66,3 +66,9 @@
         font-size: 15px;
     }
 }
+@media (min-width: 1000px) {
+    .formacionText {
+        width: 70%;
+        margin: 1.5em auto;
+    }
+}
