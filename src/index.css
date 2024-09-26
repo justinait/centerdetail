@@ -49,6 +49,7 @@ h2 {
 }
 @media (min-width: 1000px) {
   h2 {
+    line-height: 40px;
     font-size: 36px;
   }
 }
