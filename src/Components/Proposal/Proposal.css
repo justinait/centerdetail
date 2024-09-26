@@ -46,3 +46,8 @@
         margin: 1.5em auto 0em;
     }
 }
+@media (min-width: 1000px) {
+    .itemsProposalBox p {
+        font-size: 20px;
+    }
+}

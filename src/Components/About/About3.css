@@ -42,3 +42,25 @@
         font-size: 17px;
     }
 }
+@media(min-width:1000px) {
+    .objetivosText {
+        width: 74%;
+    }
+    .objetivosTitle {
+        font-size: 16px;
+        border-radius: 0;
+    }
+    .objetivosBoxesContainer {
+        display: flex;
+        flex-direction: row;
+    }
+    .objetivosBoxesContainer div {
+        width: 33.33%;
+    }
+    .firstBorder {
+        border-radius: 25px 0 0 25px;
+    }
+    .lastBorder {
+        border-radius: 0 25px 25px 0;
+    }
+}
