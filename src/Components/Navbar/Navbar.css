@@ -43,6 +43,7 @@
 @media (min-width: 600px){
     .navbarContainer{
         padding: 0px 5%;
+        height: 75px;
     }
     .dropdown {
         width: 200px;

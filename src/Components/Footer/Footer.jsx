@@ -9,7 +9,7 @@ function Footer() {
       <h2>Contacto</h2>
       
       <p className='footerSubtitle'>¿Listo para dar el siguiente paso?</p>
-      <p className='footerText'>Estamos disponibles para cualquier consulta, no dudes en comunicarte con nosotros</p>
+      <p className='footerText'>Estamos disponibles para cualquier consulta, <br className='tabletOn'/> no dudes en comunicarte con nosotros</p>
 
       <div className='contactContainer'>
 

@@ -40,3 +40,29 @@
 .techniqueBox img {
     width: 100%;
 }
+@media(min-width:600px){
+    .techniqueBox {
+        width: 48%;
+        height: 350px;
+        margin: 10px 0;
+    }
+    .techniquesBoxsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .techniqueBox img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .techniquesContainer h5 {
+        font-size: 24px;
+    }
+    .techniquesText {
+        font-size: 14px;
+    }
+    .formacionText {
+        font-size: 15px;
+    }
+}
