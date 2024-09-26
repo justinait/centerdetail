@@ -51,3 +51,12 @@
         font-size: 20px;
     }
 }
+@media (min-width: 1200px) {
+    .itemsProposalBox p {
+        font-size: 24px;
+    }
+    .carProposalBox {
+        display: flex;
+        margin: 80px 0;
+    }
+}

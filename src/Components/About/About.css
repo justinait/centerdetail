@@ -85,9 +85,11 @@
     }
     .aboutText {
         font-size: 14px;
+        line-height: normal;
     }
     .aboutContainer {
         justify-content: space-around;
+        padding: 6% 10%;
     }
     
     .aboutBox {

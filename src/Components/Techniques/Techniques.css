@@ -72,3 +72,8 @@
         margin: 1.5em auto;
     }
 }
+@media (min-width: 1200px) {
+    .formacionText {
+        font-size: 17px;
+    }
+}
