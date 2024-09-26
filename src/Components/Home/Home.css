@@ -1,12 +1,12 @@
 
 .heroImageDiv {
     width: 100%;
-    height: 73vh;
+    height: 80vh;
     position: absolute;
 }
 .imagesHero {
     width: 33.33333333%;
-    height: 73vh;
+    height: 80vh;
     object-fit: cover;
     object-position: left;
 }
@@ -14,7 +14,7 @@
     color: white;
     z-index: 5;
     position: relative;
-    height: 72vh;
+    height: 79vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,13 +29,13 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 73vh;
+    height: 80vh;
     z-index: 4;
     background-color: rgba(0, 0, 0, 0.2); /* Negro con 50% de opacidad */
 }
 .heroLogo {
     width: 220px;
-    margin-top: 13em;
+    margin-top: 36vh;
     z-index: 2;
 }
 h1 {
@@ -73,6 +73,7 @@ h5 {
     text-align: center;
     padding: 20px;
     font-size: 14px;
+    display: none;
 }
 .heroFooterStrong {
     font-weight: 600;
@@ -88,9 +89,13 @@ h5 {
 }
 
 @media(min-width:600px){
-
+    h1 {
+        font-size: 22px;
+        line-height: normal;
+        width: 70%;
+    }
     .heroLogo {
-        width: 280px;
+        width: 300px;
         margin-top: 20em;
     }
     .heroInfo h5 {
@@ -105,10 +110,13 @@ h5 {
         margin-top: 25em;
         margin-bottom: 1em;
     }
+    h1 {        
+        font-size: 25px;
+    }
 }
 @media (min-width: 1200px) {
     .heroLogo {
-        width: 330px;
+        width: 370px;
         margin-top: 12em;
         margin-bottom: 0em;
     }
