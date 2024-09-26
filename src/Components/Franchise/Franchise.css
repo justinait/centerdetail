@@ -3,7 +3,7 @@
     color: white;
 }
 .franchiseContainer {
-    padding: 50px 50px 0;
+    padding: 50px;
 }
 .franchiseContainer h4 {
     font-weight: 300;
@@ -21,4 +21,20 @@
 }
 .franchiseContainer .formacionText {
     text-align: center;
+}
+@media(min-width:600px){
+    .mapContainerFranchise {
+        height: 180px;
+    }
+}
+@media(min-width:1000px){
+    .mapContainerFranchise {
+        height: 200px;
+    }
+}
+@media(min-width:1200px){
+    .mapBoxFranchise {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
