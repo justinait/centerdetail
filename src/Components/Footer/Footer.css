@@ -24,7 +24,7 @@
     justify-content: space-between;
     margin: 2em 0;
 }
-.contactContainer p {
+.contactContainer p, .contactContainerP {
     font-size: 12px;
     margin: 0;
 }
@@ -48,7 +48,7 @@
     }
 }
 @media(min-width:1200px){
-    .contactContainer p {
+    .contactContainer p, .contactContainerP {
         font-size: 15px;
     }
     .contactContainer {
@@ -67,7 +67,7 @@
     .footerText {
         font-size: 19px;
     }
-    .contactContainer p {
+    .contactContainer p, .contactContainerP {
         font-size: 17px;
     }
 }

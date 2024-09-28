@@ -19,8 +19,7 @@ function Footer() {
         </div>
         <div>
           <img src={mail} alt="CORREO" className='footerIconMail'/>
-          <p>centerdetail@gmail.com</p>
-          
+          <a href="F.centerdetail@gmail.com" className='contactContainerP' style={{color: 'black', textDecoration: 'none'}}>F.centerdetail@gmail.com</a>
         </div>
       </div>
     </div>
