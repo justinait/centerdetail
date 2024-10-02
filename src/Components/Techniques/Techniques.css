@@ -65,6 +65,14 @@
     .formacionText {
         font-size: 15px;
     }
+    
+    .techniqueBox {
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .techniqueBox:hover {
+        transform: scale(1.05);
+    }
 }
 @media (min-width: 1000px) {
     .formacionText {
