@@ -15,7 +15,9 @@ function Footer() {
 
         <div>
           <img src={ig} alt="INSTAGRAM" className='footerIconMail' />
-          <p>@centerdetail</p>
+          <p></p>
+          <a href="https://www.instagram.com/center.detail/" className='contactContainerP' style={{color: 'black', textDecoration: 'none'}}>@center.detail</a>
+          
         </div>
         <div>
           <img src={mail} alt="CORREO" className='footerIconMail'/>
