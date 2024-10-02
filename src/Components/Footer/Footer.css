@@ -30,6 +30,10 @@
 }
 .contactContainer div {
     width: 56%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 @media(min-width:600px){
     .footerSubtitle {
@@ -45,6 +49,11 @@
     }
     .contactContainer div {
         width: 32%;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .contactContainer div:hover {
+        transform: scale(1.2);
     }
 }
 @media(min-width: 1000px){
