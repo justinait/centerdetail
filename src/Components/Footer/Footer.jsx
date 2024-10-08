@@ -20,7 +20,7 @@ function Footer() {
           
         <div>
           <img src={mail} alt="CORREO" className='footerIconMail'/>
-          <a href="mailto:F.centerdetail@gmail.com" target='_blank' className='contactContainerP' style={{color: 'black', textDecoration: 'none'}}>F.centerdetail@gmail.com</a>
+          <a href="mailto:F.centerdetail@gmail.com" target='_blank' rel="noopener noreferrer" className='contactContainerP' style={{color: 'black', textDecoration: 'none'}}>F.centerdetail@gmail.com</a>
         </div>
       </div>
 
