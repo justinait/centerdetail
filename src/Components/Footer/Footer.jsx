@@ -23,6 +23,7 @@ function Footer() {
           <a href="F.centerdetail@gmail.com" className='contactContainerP' style={{color: 'black', textDecoration: 'none'}}>F.centerdetail@gmail.com</a>
         </div>
       </div>
+
     </div>
   )
 }
