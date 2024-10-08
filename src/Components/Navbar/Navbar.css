@@ -1,5 +1,5 @@
 .navbarContainer {
-    background-color: #0a0a0a;  /* #2d4047; */
+    background-color: #333;  /* #2d4047; */
     height: 65px;
     display: flex;
     align-items: center;
@@ -9,8 +9,8 @@
     top: 0;
     z-index: 100;
 }
-.logo {
-    height: 40px;
+.logo, .aNavbar {
+    height: 50px;
 }
 .burgerMenu {
     color: white;
@@ -24,7 +24,7 @@
     top: 64px;
     right: 0;
     padding: 6% 40px 4% 0;
-    background: black;
+    background: #333;
     text-align: right;
     color: #f4f4f4;
     border-radius: 0 0 5px 5px;
@@ -118,7 +118,7 @@
         width: 21%;
         text-align: center;
     }
-    .logo {
+    .logo, .aNavbar {
         height: 60px;
     }
 
@@ -135,7 +135,7 @@
     .navbarContainer p::before {
         bottom: -11px;
     }
-    .logo {
+    .logo, .aNavbar {
         height: 70px;
     }
     .dropdown {
