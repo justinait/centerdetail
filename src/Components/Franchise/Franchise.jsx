@@ -33,7 +33,7 @@ function Franchise() {
             })}
         </div>
 
-        <p className='justina'>Powered by<a className='contactText' target='_blank' href="https://www.imjustwebs.com/"><strong > I'mJustWebs</strong></a></p>
+        <p className='justina'>Powered by<a className='contactText' rel="noopener noreferrer" target='_blank' href="https://www.imjustwebs.com/"><strong > I'mJustWebs</strong></a></p>
 
     </div>
   )
