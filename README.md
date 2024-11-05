@@ -1,6 +1,6 @@
 # Center Detail - Franquicia General
 
-<!-- <img align="center" src="./public/hero-center-detail.jpeg" alt="Center Detail"> -->
+<img align="center" src="./public/readme.png" alt="Center Detail">
 
 **Descripción del proyecto:** Plataforma web para Center Detail, una franquicia especializada en servicios de limpieza, detailing y mantenimiento de vehículos, ofreciendo servicios de alta calidad en distintas ubicaciones.
 
