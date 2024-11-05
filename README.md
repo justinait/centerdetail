@@ -6,7 +6,7 @@
 
 **Mi rol en el proyecto:** Desarrolladora Fullstack, responsable de implementar tanto el frontend, asegurando que la plataforma fuera escalable para varias sucursales. Utilicé **React.js** para una interfaz moderna y amigable para el usuario.
 
-<h3>👉🏻 <b>Deploy: <a href="https://centerdetail.com" target="_blank">Center Detail Franquicia</a></b></h3>
+<h3>👉🏻 <b>Deploy: <a href="https://centerdetail.com" target="_blank">Center Detail</a></b></h3>
 
 ---
 
